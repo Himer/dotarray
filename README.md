@@ -18,7 +18,6 @@ flag   查看那些数据结构，是扩展提供的3个常量或操作，分别
 
 <pre>
 <?php  
-  
 $items = array(1,2,8=>'lalala',16=>'hahaha','name'=>'shiki',30=>'wooooo...');  
 next($items);/*将内部指针移到下一位*/  
 $result = dotarray($items,DOTARRAY_DOUBLE_LIST|DOTARRAY_CURRENT_POSITION);  
