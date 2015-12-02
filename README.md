@@ -16,7 +16,7 @@ flag   查看那些数据结构，是扩展提供的3个常量或操作，分别
 成功返回dot描述字符串，错误（非数组等情况）返回false 
 --------------------------------------------------------------------------------------------- 
 </pre>
-显示双链表结构例子 <br>
+###显示双链表结构例子 <br>
 
 <pre>
 $items = array(1,2,8=>'lalala',16=>'hahaha','name'=>'shiki',30=>'wooooo...');  
@@ -24,7 +24,7 @@ next($items);/*将内部指针移到下一位*/
 $result = dotarray($items,DOTARRAY_DOUBLE_LIST|DOTARRAY_CURRENT_POSITION);  
 echo  $result;  
 </pre>
-得到的dot描述： 
+###得到的dot描述： 
 
 <pre>
 digraph html {label = "Structure of array";  
@@ -37,6 +37,6 @@ edge [color=black];
 }  
 </pre>
 
-通过graphviz渲染得到下面的图片 
+###通过graphviz渲染得到下面的图片 
 
 ![](http://dl2.iteye.com/upload/attachment/0107/2260/10f186b3-e037-3772-93d3-ea06609e6c89.png)
