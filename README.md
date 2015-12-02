@@ -16,17 +16,17 @@ flag   查看那些数据结构，是扩展提供的3个常量或操作，分别
 <br>--------------------------------------------------------------------------------------------- <br>
 显示双链表结构例子 <br>
 
-'''
+<pre><code>
 <?php  
   
 $items = array(1,2,8=>'lalala',16=>'hahaha','name'=>'shiki',30=>'wooooo...');  
 next($items);/*将内部指针移到下一位*/  
 $result = dotarray($items,DOTARRAY_DOUBLE_LIST|DOTARRAY_CURRENT_POSITION);  
 echo  $result;  
-'''
+</code></pre>
 得到的dot描述： 
 
-'''
+<pre><code>
 digraph html {label = "Structure of array";  
 node[shape = record];  
 ===========部分内容省略============  
@@ -35,7 +35,7 @@ edge [color=green];
 sk_array:f5:s -> sk_item_1:f0;  
 edge [color=black];  
 }  
-'''
+</code></pre>
 
 通过graphviz渲染得到下面的图片 
 
