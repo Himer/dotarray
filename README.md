@@ -39,4 +39,4 @@ edge [color=black];
 
 ###通过graphviz渲染得到下面的图片 
 
-![](http://dl2.iteye.com/upload/attachment/0107/2260/10f186b3-e037-3772-93d3-ea06609e6c89.png)
+![](https://raw.githubusercontent.com/Himer/dotarray/master/dot.png)
